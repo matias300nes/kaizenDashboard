@@ -8,7 +8,7 @@ function checkJoke(){
         }
     });
     
-    setTimeout(checkJoke, 2000);
+    setTimeout(checkJoke, 3000);
     
 }
 
