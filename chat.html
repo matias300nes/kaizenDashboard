@@ -1,22 +1,19 @@
- <body>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<title>Chat</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head>
+<body>
     <div class="container">
-        <div class="userlogin">
-            <label for="username">Name</label>
-            <input type="text" id="username" placeholder="User Name" onkeyup="this.value = this.value.toUpperCase();"></text>
-            <input type="text" id="roomname" placeholder="Room Name" onkeyup="this.value = this.value.toUpperCase();"></text>
-            <br />
-            <button id="btnJoin">Join</button>
-            <button id="btnLeave">Leave</button>
-            <button id="btnUsers">Users</button>
-        </div>
-        <hr />
-        <div class="userlogin">
-            <label for="sendmsg">Message</label>
-            <input type="text" id="sendmsg" placeholder="Send Message"></text>
-            <button id="btnSendMsg">Send</button>
-            <input type="file" id="imgfile" class="file" accept="image/*">
-            <button id="btnSendAtt">Image</button>
-        </div>
-        <div id="chatbox" class="chatbox"></div>
+        <input type="text" class="form-control" id="message" aria-describedby="">
     </div>
+
+    <script src="assets/js/socket.js"></script>
 </body>
+    
+</html>
