@@ -26864,4 +26864,13 @@ pre[class*="language-"] {
   display: none;
 }
 
+.hover-gradient{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-gradient:hover{
+	background-image: linear-gradient(310deg, #7928ca 0%, #ff0080 100%);
+  opacity: 0.85;
+}
+
 /*# sourceMappingURL=dashboard-free.css.map */
