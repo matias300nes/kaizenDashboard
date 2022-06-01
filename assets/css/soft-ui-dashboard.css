@@ -21438,6 +21438,10 @@ label,
   background-image: linear-gradient(310deg, #141727 0%, #3a416f 100%);
 }
 
+.bg-gradient-dark-30 {
+  background: linear-gradient(30deg, rgba(20,23,39,1) 0%, rgba(58,65,111,0) 100%);
+}
+
 .bg-gradient-faded-primary {
   background-image: radial-gradient(
     370px circle at 80% 50%,
@@ -26871,6 +26875,10 @@ pre[class*="language-"] {
 .hover-gradient:hover{
 	background-image: linear-gradient(310deg, #7928ca 0%, #ff0080 100%);
   opacity: 0.85;
+}
+
+.logo{
+  max-height: 60px;
 }
 
 /*# sourceMappingURL=dashboard-free.css.map */
